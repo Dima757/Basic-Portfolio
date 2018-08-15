@@ -1,16 +1,10 @@
 *   {
     box-sizing: border-box;
+    background-color: rgb(204, 192, 192);
+    margin: 0;
 
 }
-    
 
-
-h1 {
-    background-color: aqua;
-    color: white;
-    margin-left: 150px;
-    width: 20%;
-}
 
 .wrapper {
     border-block-end-color: black;
@@ -24,23 +18,25 @@ h1 {
     transform: rotate(270deg);
 }
 
-#about {
-    float: left;
-}
-
 #body {
     float: left;
+    background-color: white;
+    margin-top: 120px;
 }
 
 .head-container {
-   
+    height: 50px;
+    margin-left: 195px;
+    background-color: white;
+
+    
 }
 
 #master-head {
     position: fixed;
     z-index: 100;
-    width: 100%;
-    background: cornflowerblue;
+    width: 1380px;
+    background-color: white;
     color: black
 }
 
@@ -48,6 +44,11 @@ h1 {
     text-decoration: none;
     float: left;
     color: black;
+    background-color: rgb(22, 154, 158);
+    height: 50px;
+    padding: 14px 16px;
+    margin-left: -8px;
+   
 }
 
 nav a {
@@ -56,9 +57,42 @@ nav a {
     display: inline-block;
     padding-left: 15px;
     margin-left: 15px;
+    background-color: white;
+    
 
 }
 
 nav {
     float: right;
+    background-color: white;
+    padding: 14px 16px;
+    margin-right: 190px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: darkgrey;
+
+}
+
+#about {
+    margin-top: 120px;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+}
+
+h2 {
+    background-color: white;
+    
+}
+
+p {
+    background-color: white;
+
 }
